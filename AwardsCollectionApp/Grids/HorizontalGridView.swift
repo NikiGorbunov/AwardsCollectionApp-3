@@ -2,7 +2,7 @@
 //  HorizontalGridView.swift
 //  AwardsCollectionApp
 //
-//  Created by brubru on 07.03.2022.
+//  Created by Никита Горбунов on 17.05.2022.
 //
 
 import SwiftUI
