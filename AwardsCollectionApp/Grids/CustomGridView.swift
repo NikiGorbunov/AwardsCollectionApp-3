@@ -25,7 +25,7 @@ struct CustomGridView<Content, T>: View where Content : View {
                 VStack {
                     ForEach(0...rows, id: \.self) { rowIndex in
                         HStack {
-                            ForEach(0..<columns) { columnIndex in
+                            ForEach(0..<columns, id: \.self) { columnIndex in
                                 if let index = indexFor(row: rowIndex, column: columnIndex) {
                                     content(sideSize, items[index])
                                         .frame(width: sideSize, height: sideSize)
